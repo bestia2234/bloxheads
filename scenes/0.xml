@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="3" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="Compound" opacity="100" order="2" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="2" locked="true" name="Compound" opacity="100" order="1" rid="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="17" c="false" group="7" id="13" name="Health pack 17" sx="1.0" sy="1.0" x="205" y="224" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="7" id="13" name="Health pack 18" sx="1.0" sy="1.0" x="196" y="256" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="7" id="13" name="Health pack 19" sx="1.0" sy="1.0" x="309" y="308" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="7" name="opening doors 7" sx="1.0" sy="1.0" x="161" y="273" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="5" id="4" name="zombie 8" sx="1.0" sy="1.0" x="253" y="76" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="0" id="11" name="Nikolai 11" sx="1.0" sy="1.0" x="108" y="229" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="5" id="4" name="zombie 12" sx="1.0" sy="1.0" x="190" y="310" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="5" id="4" name="zombie 13" sx="1.0" sy="1.0" x="534" y="369" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="5" id="4" name="zombie 14" sx="1.0" sy="1.0" x="462" y="403" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="5" id="4" name="zombie 15" sx="1.0" sy="1.0" x="-10" y="231" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>
