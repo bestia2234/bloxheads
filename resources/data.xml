@@ -22,6 +22,7 @@
         <blank name="Self" order="0" type="actor"/>
         <blank name="Amount" order="1" type="number"/>
     </custom-block>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="35" name="Dunes" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <custom-block blocktag="custom-24" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_FullRestore&quot;);" desc="" global="false" gui="Restore %0 To Full Health" id="24" message="FullRestore" name="FullRestore" oid="-1" return="void" shared="false" snippetID="15">
         <blank name="Self" order="0" type="actor"/>
     </custom-block>
