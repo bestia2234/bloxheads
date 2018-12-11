@@ -40,6 +40,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,79 +70,18 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_11 extends ActorScript
+class SceneEvents_1 extends SceneScript
 {
-	public var _Health:Float;
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
-		nameMap.set("Health", "_Health");
-		_Health = 10.0;
+		super();
 		
 	}
 	
 	override public function init()
 	{
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if(isKeyDown("left"))
-				{
-					actor.setXVelocity(-10);
-					actor.setAnimation("" + "left");
-				}
-				else if(isKeyDown("right"))
-				{
-					actor.setXVelocity(10);
-					actor.setAnimation("" + "right");
-				}
-				else
-				{
-					actor.setXVelocity(0);
-				}
-				if(isKeyDown("up"))
-				{
-					actor.setYVelocity(-10);
-					actor.setAnimation("" + "up");
-				}
-				else if(isKeyDown("down"))
-				{
-					actor.setYVelocity(10);
-					actor.setAnimation("" + "down");
-				}
-				else
-				{
-					actor.setYVelocity(0);
-				}
-			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(13), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				if((_Health == 6))
-				{
-					_Health = asNumber(12);
-					propertyChanged("_Health", _Health);
-				}
-			}
-		});
-		
-		/* ======================== Something Else ======================== */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				recycleActor(actor);
-			}
-		});
 		
 	}
 	

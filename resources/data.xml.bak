@@ -22,6 +22,7 @@
         <blank name="Self" order="0" type="actor"/>
         <blank name="Amount" order="1" type="number"/>
     </custom-block>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="35" name="Dunes" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <custom-block blocktag="custom-24" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_FullRestore&quot;);" desc="" global="false" gui="Restore %0 To Full Health" id="24" message="FullRestore" name="FullRestore" oid="-1" return="void" shared="false" snippetID="15">
         <blank name="Self" order="0" type="actor"/>
     </custom-block>
@@ -119,9 +120,9 @@
                 <prop id="11" list="0" val="true"/>
                 <prop id="12" list="0" val="TotalHealth"/>
                 <prop id="13" list="0" val=""/>
-                <prop id="14" list="0" val="No Sound"/>
-                <prop id="15" list="0" val="No Sound"/>
-                <prop id="16" list="0" val="No Sound"/>
+                <prop id="14" list="0" val="-1"/>
+                <prop id="15" list="0" val="-1"/>
+                <prop id="16" list="0" val="-1"/>
                 <prop id="17" list="0" val="false"/>
                 <prop id="18" list="0" val="0.0"/>
                 <prop id="19" list="0" val="0.0"/>
@@ -219,7 +220,7 @@
             <poly data="4,8,0,53,0,53,32,8,32" density="0.1" fric="0.2" gid="-1000" id="0" name="avoid/up" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="32" id="7" loop="true" name="avoid/down" numframes="1" originx="32" originy="16" sync="false" version="2" width="64">
-            <poly data="4,8,0,53,0,53,32,8,32" density="0.1" fric="0.2" gid="-1000" id="0" name="avoid/down" rest="0.0" sensor="false"/>
+            <poly data="4,8,0,53,0,53,32,8,32" density="0.1" fric="0.2" gid="5" id="0" name="avoid/down" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
 </pack>
