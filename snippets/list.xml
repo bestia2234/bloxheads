@@ -182,12 +182,12 @@
         <events/>
     </snippet>
     <snippet actorid="36" attachedevent="true" class="scripts.ActorEvents_36" classname="scripts.ActorEvents_36" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="20" name="ActorEvents_36" oid="-1" package="scripts." shared="false" type="actor">
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Health" hidden="false" id="1" name="_Health" order="0"/>
         <blocks/>
         <events>
-            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="false"/>
-            <event displayName="Updating" enabled="true" id="2" name="step" order="4" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="3" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="true"/>
         </events>
     </snippet>
 </pack>
