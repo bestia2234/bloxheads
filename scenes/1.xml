@@ -8,7 +8,12 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="36" name="Dunezombie 1" sx="1.0" sy="1.0" x="205" y="140" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="36" name="Dunezombie 2" sx="1.0" sy="1.0" x="196" y="334" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="36" name="Dunezombie 3" sx="1.0" sy="1.0" x="103" y="247" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="0" id="11" name="Nikolai 4" sx="1.0" sy="1.0" x="99" y="153" z="0"/>
+    </actors>
     <snippets/>
     <terrain/>
     <atlases members="" retainAtlases="true"/>

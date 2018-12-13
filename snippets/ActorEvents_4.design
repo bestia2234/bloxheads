@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="1" id="0">
-        <collide comment="false" x="0" y="19">
+        <collide comment="false" x="118" y="72">
             <group eventID="1" id="-1">
-                <die comment="false" x="11" y="49">
+                <die comment="false" x="129" y="102">
                     <other-actor comment="false" id="0" x="0" y="0"/>
                 </die>
-                <set-val-2-2 comment="false" x="11" y="81">
+                <set-val-2-2 comment="false" x="129" y="134">
                     <minus comment="false" id="0" x="0" y="0">
                         <get-val-2-2 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="1"/>
                     </minus>
                 </set-val-2-2>
-                <if comment="false" x="11" y="111">
+                <if comment="false" x="129" y="164">
                     <group eventID="1" id="-1">
-                        <die comment="false" x="22" y="141">
+                        <die comment="false" x="140" y="194">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
@@ -71,9 +71,9 @@
                         <int id="1" val="avoid"/>
                     </eq>
                 </if>
-                <else comment="false" x="26" y="140">
+                <else comment="false" x="26" y="135">
                     <group eventID="3" id="-1">
-                        <push-shove comment="false" x="37" y="160">
+                        <push-shove comment="false" x="37" y="155">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <minus comment="false" id="2" x="0" y="0">
