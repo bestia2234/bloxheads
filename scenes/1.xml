@@ -13,6 +13,10 @@
         <actor a="0.0" aid="2" c="false" group="3" id="36" name="Dunezombie 2" sx="1.0" sy="1.0" x="196" y="334" z="0"/>
         <actor a="0.0" aid="3" c="false" group="3" id="36" name="Dunezombie 3" sx="1.0" sy="1.0" x="103" y="247" z="0"/>
         <actor a="0.0" aid="4" c="false" group="0" id="11" name="Nikolai 4" sx="1.0" sy="1.0" x="99" y="153" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="7" id="13" name="Health pack 5" sx="1.0" sy="1.0" x="270" y="89" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="7" id="13" name="Health pack 6" sx="1.0" sy="1.0" x="446" y="342" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="7" id="13" name="Health pack 7" sx="1.0" sy="1.0" x="56" y="354" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="7" id="13" name="Health pack 8" sx="1.0" sy="1.0" x="383" y="173" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

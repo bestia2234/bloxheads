@@ -3,18 +3,15 @@
     <group eventID="1" id="0">
         <collide comment="false" x="118" y="72">
             <group eventID="1" id="-1">
-                <die comment="false" x="129" y="102">
-                    <other-actor comment="false" id="0" x="0" y="0"/>
-                </die>
-                <set-val-2-2 comment="false" x="129" y="134">
+                <set-val-2-2 comment="false" x="129" y="102">
                     <minus comment="false" id="0" x="0" y="0">
                         <get-val-2-2 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="1"/>
+                        <int id="1" val="2"/>
                     </minus>
                 </set-val-2-2>
-                <if comment="false" x="129" y="164">
+                <if comment="false" x="129" y="132">
                     <group eventID="1" id="-1">
-                        <die comment="false" x="140" y="194">
+                        <die comment="false" x="140" y="162">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
@@ -23,6 +20,9 @@
                         <int id="1" val="0"/>
                     </lesseq>
                 </if>
+                <die comment="false" x="129" y="201">
+                    <other-actor comment="false" id="0" x="0" y="0"/>
+                </die>
             </group>
         </collide>
     </group>
@@ -112,7 +112,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="avoid/left"/>
+                        <int id="1" val="follow/left"/>
                     </eq>
                 </if>
                 <else-if comment="false" x="26" y="119">
@@ -133,14 +133,14 @@
                     <group eventID="4" id="-1">
                         <setanim comment="false" x="37" y="234">
                             <ACTOR eid="this" id="0"/>
-                            <int id="1" val="down/avoid"/>
+                            <int id="1" val="avoid/down"/>
                         </setanim>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="down/avoid"/>
+                        <int id="1" val="avoid/down"/>
                     </eq>
                 </else-if>
             </group>

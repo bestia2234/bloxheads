@@ -40,6 +40,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,22 +70,13 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_13 extends ActorScript
+class SceneEvents_1 extends SceneScript
 {
-	public var _currentactor:Float;
-	public var _Health:Bool;
-	public var _Healthpack:Float;
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
-		nameMap.set("current actor", "_currentactor");
-		_currentactor = 0.0;
-		nameMap.set("Health", "_Health");
-		_Health = false;
-		nameMap.set("Healthpack", "_Healthpack");
-		_Healthpack = 0.0;
+		super();
 		
 	}
 	
